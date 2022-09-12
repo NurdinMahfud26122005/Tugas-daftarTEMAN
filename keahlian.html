@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <style type="text/css">
+        .container {
+            width: 800px;
+            margin: 0 auto;
+
+        }
+        a{
+            font-size: 20px;
+        }
+
+
+        .thumbnail {
+
+            background-color: white;
+            text-align: center;
+            padding: 10px;
+            width: 225px;
+            margin: 10px;
+            float: left;
+
+        }
+        .thumbnail img {
+
+            width: 100%;
+
+        }
+
+        .header {
+
+            background-color: #eee;
+            min-height: 50px;
+            text-align: center;
+            background-color: #eee;
+            min-height: 50px;
+            text-align: center;
+
+        }
+
+        .logo img {
+
+            width: 200px;
+
+        }
+
+        .menu ul {
+
+            padding: 0;
+
+        }
+
+        .menu ul li {
+
+            display: inline-block;
+            position: relative;
+
+        }
+
+        .menu ul li a {
+
+            padding: 10px 20px;
+
+            text-decoration: none;
+
+        }
+
+        ul.submenu {
+
+            background-color: #eee;
+            border: 1px solid rgb(68, 67, 67);
+            text-align: left;
+            position: absolute;
+            top: 20px;
+            left: 0;
+            display: none;
+
+        }
+
+            .menu ul li:hover ul.submenu  {
+
+            display: block;
+
+        }
+        ul.submenu li {
+
+            display: block;
+        }
+            ul.submenu li a {
+
+            display: block;
+
+            padding: 5px 10px;
+        }
+        body{
+            background-color: rgb(158, 158, 158);
+        
+        }
+        .jumbotron {
+
+            width: 100%;
+
+            padding: 80px 40px;
+
+            box-sizing: border-box;
+
+            text-align: center;
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(255, 255, 255);
+
+            background-image: url( windows.jpg );
+
+            background-size: cover;
+
+            /* position: absolute; */
+
+            font-family: 'Raleway', sans-serif;
+
+            width: 100%;
+            
+        }
+
+        .jumbotron h2,.jumbotron p {
+
+            position: relative;
+        }
+    
+        
+
+        .content {
+
+            background-color: #eee;
+
+            min-height: 250px;
+
+            background-color: #eee;
+
+            overflow: auto;
+
+        }
+
+        .footer {
+
+            background-color: white;
+            min-height: 50px;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">   <!-- Div utama kita namai dengan di class container -->
+
+        <div class="header">
+           
+    
+            <div class="logo">
+    
+                <img src="Logo-smkmutuharjo.png" width="300">
+    
+            </div>
+            <div class="menu">
+    
+                <ul>
+    
+                    <li><a href="index.html">Home</a></li>
+                
+                    <li><a href="about.html">about</a></li>
+    
+                    <li><a href="#">About</a>
+                        <ul class="submenu">
+    
+                            <li><a href="keahlian.html">Keahlian</a></li>
+    
+                            <li><a href="temandekat.html">Teman Dekat</a></li>
+    
+                            <li><a href="portofolio.html">Portfolio</a></li>
+    
+                        </ul>
+                    </li>
+    
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+    
+            </div>
+            <br>
+        </div>
+        <br>
+        <div class="jumbotron">
+            <div class="overlay"></div>
+            <h2>Hallo Selamat Datang Di Website Saya</h2>
+    
+            <p>website ini adalah project layouting pertama saya yang berisi daftar teman kelas dan profile saya</p>
+    
+            <p>Setiap orang memiliki kelebihan dan kelemahan masing-masing. kita tidak bisa hebat dalam semua hal</p>
+    
+            <p>awali dengan "LEARN" dan selanjutnya akhiri dengan buang huruf "L"</p>
+    
+        </div>
+    
+    <br>
+    <div class="content"><center><h2>keahlian</h2>
+     <table border="2" width=50%>
+        <tr>
+            <th>skill</th>
+            <th>pengalaman</th>
+        </tr>
+        <td>
+            <ul><li>html (expret)</li>
+                <li>css (biginner)</li>
+                <li>javascript (biginner)</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>freelencer di internet</li>
+                <li>siswa di smk muhammadiyah 1 sukoharjo</li>
+                <li>magang di..</li>
+            </ul>
+        </td>
+      </center>
+    </div>
+    </table> 
+    <br>
+</body>
+</html>
